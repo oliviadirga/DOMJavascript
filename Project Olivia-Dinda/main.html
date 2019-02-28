@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+        ESCAPE ROOM
+    </title>
+</head>
+
+<body>
+    <!-- <div class="container-fluid"> -->
+    <div id="input">
+        <div class="row">
+            <div class="col-md-3">
+                <span>Waktu : </span><span id="seconds">15</span>
+            </div>
+            <div class="col-md-6">
+                <h1>Escape Room</h1>
+            </div>
+            <div class="col-md-3">
+                <span>Sisa Nyawa : </span><span id="nyawa" value=3>3</span>
+            </div>
+        </div>
+        <img src="./image/smarty_pantz.jpg" width="60%">
+        <div class="items">
+            <button id="btn1" disabled onclick="myFunction1()">this</button>
+            <!--lilin-->
+            <button id="btn2" disabled onclick="myFunction2()">this</button>
+            <!--buku-->
+            <button id="btn3" disabled onclick="myFunction3()">this</button>
+            <!--foto-->
+            <button id="btn4" disabled onclick="myFunction4()">this</button>
+            <!--jendela-->
+            <button id="btn5" disabled onclick="myFunction5()">this</button>
+            <!--album-->
+            <button id="btn6" disabled onclick="myFunction6()">this</button>
+            <!--dinding-->
+            <button id="btn7" disabled onclick="myFunction7()">this</button>
+            <!--buku musik-->
+            <!-- <button id="btn8" onclick="myFunction8()">this</button> -->
+        </div>
+        <h2>
+            <button id="start" onclick="myFunctionSt()">start</button>
+            <!--buku-->
+            <button id="next1" class="disabled" disabled onclick="myFunctionA()">Clue A</button>
+            <!--foto-->
+            <button id="next2" class="disabled" disabled onclick="myFunctionB()">Clue B</button>
+            <!--album-->
+            <button id="next3" class="disabled" disabled onclick="myFunctionC()">Clue C</button>
+            <!--lilin-->
+            <button id="next4" class="disabled" disabled onclick="myFunctionD()">Clue D</button>
+            <!--buku musik-->
+            <button id="next5" class="disabled" disabled onclick="myFunctionE()">Clue E</button>
+            <!--dinding-->
+            <button id="next6" class="disabled" disabled onclick="myFunctionF()">Clue F</button>
+            <!--jendela-->
+        </h2>
+    </div>
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p img src="./image/Key-PNG-Download-Image-1.png" width="65%">Yey! You got the Key!</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="warniing" id="gameover" style="display: none;">
+            <h3>Game Over - You Lose</h3>
+            <a href="index.html"><button class="answer">Home</button></a>
+        </div>
+    </div>
+    <div class="container">
+        <div class="warniing" id="youwin" style="display: none;">
+            <h3>Game Over - You Win</h3>
+            <a href="index.html"><button class="answer">Home</button></a>
+        </div>
+    </div>
+    <script src="./js/main.js"></script>
+    <embed src="./music/the x files theme song (full version).mp3" height="0" loop="true" autostart="true" class="music">
+</body>
+
+</html>

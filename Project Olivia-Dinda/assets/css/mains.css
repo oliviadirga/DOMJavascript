@@ -1,0 +1,84 @@
+.container-fluid{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    background-color: #230405;
+    padding: 100px
+}
+
+.music{
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    line-height: 0;
+}
+
+#upper-background{
+    border: 5px solid brown;
+    background-color: #cca266;
+    border-radius: 25px;
+    width: auto;
+    /* height: 469px; */
+    /* max-height: 100; */
+    margin: auto;
+    padding: 77px 60px;   
+    text-align: center;
+}
+
+#warniing{
+    border: 5px solid #cca266;
+    background-color: #230405;
+    border-radius: 25px;
+    width: 700px;
+    margin: auto;
+    padding: 77px 20px;   
+    text-align: center;
+    color: #fbe5b0;
+    z-index: 100;
+    top: 28%;
+    left: 23%;
+    position: absolute;
+}
+
+h1{
+    font-family: 'Medula One', cursive;
+    /* font-family: 'Ruslan Display', cursive; */
+    font-size: 100px;
+    padding: 5px;
+}
+
+.small{
+    font-size: 50px;
+}
+
+h4{
+    /* font-family: 'Medula One', cursive; */
+    /* font-family: 'Shadows Into Light', cursive; */
+    font-family: 'Mystery Quest', cursive;
+    font-size: 70px;
+    padding: 10px;
+}
+
+h3{
+    font-family: 'Medula One', cursive;
+    /* font-family: 'Ruslan Display', cursive; */
+    font-size: 60px;
+    padding: 5px;
+}
+
+button{
+    width: 200px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: darkred;
+    padding: 10px;
+}
+
+.answer{
+    font-family: 'Mystery Quest', cursive;
+    font-size: 20px;
+    color: #fbe5b0
+}
